@@ -20,6 +20,7 @@ public class Day03 : BaseDayTest
         }
 
         Console.WriteLine(result);
+        Assert.Pass();
     }
     
     [Test]
@@ -37,6 +38,7 @@ public class Day03 : BaseDayTest
         }
 
         Console.WriteLine(result);
+        Assert.Pass();
     }
 
     private static char FindCharThreeLine(string l1, string l2, string l3)

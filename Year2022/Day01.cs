@@ -28,6 +28,7 @@ public class Day01 : BaseDayTest
         }
 
         Console.WriteLine(max);
+        Assert.Pass();
     }
 
     [Test]
@@ -51,5 +52,6 @@ public class Day01 : BaseDayTest
 
         var sum = sumCalos.OrderByDescending(x => x).Take(3).Sum(Convert.ToDecimal);
         Console.WriteLine(sum);
+        Assert.Pass();
     }
 }

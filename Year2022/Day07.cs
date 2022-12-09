@@ -115,7 +115,7 @@ public class Day07 : BaseDayTest
         public readonly string Filename;
         public decimal Size;
 
-        public readonly IList<FileOrFolder> Childs = new List<FileOrFolder>();
+        public IList<FileOrFolder> Childs = new List<FileOrFolder>();
         public FileOrFolder Parrent;
 
         public FileOrFolder(string filename, decimal size)

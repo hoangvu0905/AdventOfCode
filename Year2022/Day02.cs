@@ -16,6 +16,7 @@ public class Day02 : BaseDayTest
         }
 
         Console.WriteLine(result);
+        Assert.Pass();
     }
     
     [Test]
@@ -37,6 +38,7 @@ public class Day02 : BaseDayTest
         }
 
         Console.WriteLine(result);
+        Assert.Pass();
     }
 
 
